@@ -18,12 +18,20 @@
  */
 
     var twoSum = function(nums, target) {
+
+        // Outer loop picks the first number
         for(let i = 0; i < nums.length; i++){
-            for(let j = i+1; j < nums.length; j++){
-                if(nums[i] + nums[j] === target) return [i,j];
+
+            // Inner loop picks the second number (after i)
+            for(let j = i + 1; j < nums.length; j++){
+
+                // Check if the current pair sums to the target
+                if(nums[i] + nums[j] === target) {
+                    // Return the indices of the two numbers
+                    return [i, j];
+                }
             }
         }
     };
-
     console.log(twoSum([3,3],6));
     
