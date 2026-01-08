@@ -1,24 +1,34 @@
 /**
-   Palindrome Number 
-   Given an integer x, return true if x is a palindrome, and false otherwise.
-
-    Example 1:
-    Input: x = 121
-    Output: true
-    Explanation: 121 reads as 121 from left to right and from right to left.
-
-    Example 2:
-    Input: x = -121
-    Output: false
-    Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
-
-    Example 3:
-    Input: x = 10
-    Output: false
-
-    Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+ * LeetCode 9 - Palindrome Number
+ *
+ * Pattern:
+ * - String conversion + Two-way comparison
+ *
+ * Idea:
+ * - Convert the number to a string
+ * - Reverse the string
+ * - Convert it back to a number
+ * - Compare with the original number
+ *
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ * (n = number of digits in x)
  */
 
-    var isPalindrome = function(x) {
-        
-    };
+var isPalindrome = function(x) {
+
+    // Convert number to string
+    // Split into characters
+    // Reverse the characters
+    // Join back into a string
+    // Convert back to number
+    // Compare with original number
+    return x === Number(
+        String(x)
+            .split('')
+            .reverse()
+            .join('')
+    );
+};
+
+console.log(isPalindrome(10)); // false
