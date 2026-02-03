@@ -51,13 +51,6 @@ New problems, improved solutions, and better optimizations will be added regular
 
 ---
 
-## 👨‍💻 Author
-
-**Sankalp Selokar**  
-Web Developer | DSA Enthusiast
-
----
-
 ## 🧪 How to Run the Code
 
 Ensure **Node.js** is installed on your system.
@@ -65,3 +58,10 @@ Ensure **Node.js** is installed on your system.
 Run any JavaScript file using:
 ```bash
 node filename.js
+```
+---
+
+## 👨‍💻 Author
+
+**Sankalp Selokar**  
+Web Developer | DSA Enthusiast
